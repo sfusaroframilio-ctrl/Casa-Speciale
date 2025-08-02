@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parceria Casa Speciale - Expanda Sua Marca</title>
+    <!-- Carregando Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+            color: #1f2937;
+        }
+
+        /* Estilo da seção principal (Hero) */
+        .hero-section {
+            background-image: url('https://images.unsplash.com/photo-1616782502690-302a4666f212?q=80&w=1740&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: white;
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .card-shadow {
+             box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        .section-padding {
+            padding: 4rem 1rem;
+        }
+        .input-style {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            background-color: #374151;
+            color: #ffffff;
+            -webkit-input-placeholder: #9ca3af;
+            -moz-placeholder: #9ca3af;
+            -ms-input-placeholder: #9ca3af;
+            placeholder: #9ca3af;
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+        }
+        .input-style:focus {
+            outline-color: #ef4444;
+        }
+        .btn-primary {
+            background-color: #ef4444;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .btn-primary:hover {
+            background-color: #dc2626;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Seção Principal (Hero) -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="z-10 text-center px-4">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">Expanda sua Marca e Simplifique suas Vendas Online</h1>
+            <p class="text-lg sm:text-xl md:text-2xl font-light">
+                Onde o Design Encontra a Oportunidade
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Seção de Introdução -->
+        <section class="section-padding bg-white card-shadow rounded-xl mx-4 sm:mx-8 md:mx-16 my-16">
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-xl sm:text-2xl font-light mb-8">
+                    Se você é um fabricante de móveis e artigos de decoração de alto padrão em busca de um novo canal de vendas online, a Casa Speciale é o seu destino.
+                </p>
+                <p class="text-xl font-medium">
+                    Trabalhamos com profissionais com mais de 10 anos de experiência no segmento. Nós criamos uma plataforma curada, construída para marcas que valorizam o design, o artesanato e a excelência do alto padrão. Junte-se a nós para levar seus produtos a um público apaixonado e pronto para comprar.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção "Seus Desafios, Nossa Solução" -->
+        <section class="section-padding">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Seus Desafios, Nossa Solução</h2>
+                <div class="md:flex md:space-x-12 items-center">
+                    <div class="md:w-1/2 mb-8 md:mb-0">
+                        <p class="text-lg mb-8">
+                            Entendemos que vender online pode ser um desafio. Logística complexa, dificuldade de visualização do produto e a construção de credibilidade em um mercado saturado são barreiras reais.
+                        </p>
+                        <p class="text-lg">
+                            É por isso que a Casa Speciale foi criada. Para ser mais do que um canal de vendas, mas um **parceiro estratégico** que resolve esses problemas e permite que você se concentre no que faz de melhor: **criar produtos incríveis.**
+                        </p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1549488339-2a91266e7456?q=80&w=1740&auto=format&fit=crop"
+                             alt="Mesa de jantar de madeira em ambiente moderno"
+                             class="rounded-xl shadow-lg w-full h-auto">
+                    </div>
+                </div>
+
+                <div class="mt-20">
+                    <h3 class="text-2xl md:text-3xl font-bold text-center mb-10">Como nós te apoiamos:</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Card 1 -->
+                        <div class="bg-white p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                            <h4 class="text-xl font-semibold mb-2">Público Alvo e Curado para Alto Padrão</h4>
+                            <p class="text-gray-600">Alcance instantaneamente um público qualificado, que busca ativamente por peças de design e decoração de alto padrão.</p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="bg-white p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                            <h4 class="text-xl font-semibold mb-2">Vendas Simplificadas</h4>
+                            <p class="text-gray-600">Deixe que nós cuidemos da complexidade da plataforma. Você foca na produção, nós na exposição e na venda.</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="bg-white p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                            <h4 class="text-xl font-semibold mb-2">Visibilidade e Marketing</h4>
+                            <p class="text-gray-600">Sua marca ganha destaque através da nossa forte presença no Instagram, com visuais deslumbrantes.</p>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="bg-white p-6 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                            <h4 class="text-xl font-semibold mb-2">Conexão com o Cliente</h4>
+                            <p class="text-gray-600">Construa credibilidade com avaliações transparentes de clientes e um ambiente que inspira confiança na compra.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção "O Caminho para a Parceria" -->
+        <section class="bg-gray-100 py-16 md:py-24 px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12">O Caminho para a Parceria</h2>
+            <div class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Passo 1 -->
+                <div class="flex flex-col items-center p-6 bg-white rounded-xl shadow-md">
+                    <span class="text-5xl font-bold text-red-500 mb-4">1.</span>
+                    <h3 class="text-2xl font-semibold mb-2">Conecte-se conosco</h3>
+                    <p class="text-gray-600">Preencha o formulário abaixo ou nos envie uma DM no Instagram para nos falar sobre sua marca.</p>
+                </div>
+                <!-- Passo 2 -->
+                <div class="flex flex-col items-center p-6 bg-white rounded-xl shadow-md">
+                    <span class="text-5xl font-bold text-red-500 mb-4">2.</span>
+                    <h3 class="text-2xl font-semibold mb-2">Seja Curado</h3>
+                    <p class="text-gray-600">Nosso time de especialistas, com mais de 10 anos de experiência no segmento, avalia seus produtos para garantir que se encaixem no estilo e na qualidade que nossa comunidade busca.</p>
+                </div>
+                <!-- Passo 3 -->
+                <div class="flex flex-col items-center p-6 bg-white rounded-xl shadow-md">
+                    <span class="text-5xl font-bold text-red-500 mb-4">3.</span>
+                    <h3 class="text-2xl font-semibold mb-2">Venda e Cresça</h3>
+                    <p class="text-gray-600">Após a aprovação, seus produtos serão apresentados na Casa Speciale, prontos para serem descobertos por novos clientes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção da API Gemini para Geração de Descrição de Produto -->
+        <section class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-gray-800 text-white rounded-xl mx-4 sm:mx-8 md:mx-16 my-16">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Gere Descrições de Produto com IA</h2>
+                <p class="text-lg mb-8">
+                    Veja como a nossa parceria pode otimizar seu marketing.
+                </p>
+                <div class="space-y-6">
+                    <textarea id="product-input" placeholder="Descreva seu produto (ex: Mesa de jantar de carvalho maciço, 6 lugares, estilo escandinavo, acabamento em cera)" rows="4" class="input-style bg-gray-700"></textarea>
+                    <button id="generate-button" class="w-full py-4 btn-primary rounded-lg text-lg hover:bg-red-700 transition-colors duration-300">
+                        ✨ Gerar Descrição
+                    </button>
+                    <div id="loading-indicator" class="hidden text-center text-red-500 font-bold mt-4">
+                        Gerando descrição...
+                    </div>
+                    <textarea id="product-output" readonly placeholder="A descrição gerada aparecerá aqui..." rows="6" class="input-style bg-gray-700 mt-4"></textarea>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato/CTA -->
+        <section class="bg-gray-800 text-white py-16 md:py-24 px-4 sm:px-6 lg:px-8 rounded-xl mx-4 sm:mx-8 md:mx-16 my-16">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Comece a sua jornada de crescimento com a gente.</h2>
+                <p class="text-lg mb-8">
+                    Diga adeus à complexidade da venda online e olá para uma parceria que valoriza seu design e potencial.
+                </p>
+                <form class="space-y-6">
+                    <input type="text" placeholder="Nome da Empresa" class="input-style">
+                    <input type="text" placeholder="Nome do Contato" class="input-style">
+                    <input type="email" placeholder="E-mail" class="input-style">
+                    <input type="tel" placeholder="Telefone" class="input-style">
+                    <input type="url" placeholder="Link para o Instagram/Website da Marca" class="input-style">
+                    <textarea placeholder="Mensagem (opcional)" rows="4" class="input-style"></textarea>
+                    <button type="submit" class="w-full py-4 btn-primary rounded-lg text-lg transition-colors duration-300">
+                        Envie sua Aplicação
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-900 text-gray-400 text-center py-8 px-4">
+        <div class="max-w-4xl mx-auto">
+            <p>&copy; 2024 Casa Speciale. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const generateButton = document.getElementById('generate-button');
+        const productInput = document.getElementById('product-input');
+        const productOutput = document.getElementById('product-output');
+        const loadingIndicator = document.getElementById('loading-indicator');
+
+        // Função para chamar a API Gemini para gerar a descrição
+        async function generateProductDescription(prompt) {
+            let chatHistory = [];
+            chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+            const payload = { contents: chatHistory };
+            const apiKey = "";
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+
+            let response;
+            let retryCount = 0;
+            const maxRetries = 5;
+
+            while (retryCount < maxRetries) {
+                try {
+                    response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (response.status === 429) { // Too Many Requests
+                        const delay = Math.pow(2, retryCount) * 1000;
+                        await new Promise(resolve => setTimeout(resolve, delay));
+                        retryCount++;
+                        continue;
+                    }
+
+                    if (!response.ok) {
+                        throw new Error(`API error: ${response.status}`);
+                    }
+
+                    const result = await response.json();
+
+                    if (result.candidates && result.candidates.length > 0 &&
+                        result.candidates[0].content && result.candidates[0].content.parts &&
+                        result.candidates[0].content.parts.length > 0) {
+                        return result.candidates[0].content.parts[0].text;
+                    } else {
+                        throw new Error("Invalid response structure from API.");
+                    }
+                } catch (error) {
+                    console.error('Error in Gemini API call:', error);
+                    throw error;
+                }
+            }
+            throw new Error("Max retries exceeded for Gemini API call.");
+        }
+
+        // Event listener para o botão de gerar
+        generateButton.addEventListener('click', async () => {
+            const productDetails = productInput.value;
+            if (!productDetails) {
+                productOutput.value = "Por favor, insira uma descrição do produto para gerar o texto.";
+                return;
+            }
+
+            productOutput.value = '';
+            loadingIndicator.classList.remove('hidden');
+
+            const prompt = `Gere uma descrição de marketing de alta qualidade para um produto de móveis ou decoração de alto padrão. O texto deve ser elegante, persuasivo e destacar a qualidade do material e do design. Use a seguinte informação: "${productDetails}". A descrição deve ter no máximo 150 palavras.`;
+
+            try {
+                const generatedDescription = await generateProductDescription(prompt);
+                productOutput.value = generatedDescription;
+            } catch (error) {
+                productOutput.value = 'Ocorreu um erro ao gerar a descrição. Por favor, tente novamente mais tarde.';
+            } finally {
+                loadingIndicator.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
